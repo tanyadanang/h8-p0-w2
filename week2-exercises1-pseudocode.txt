@@ -17,17 +17,17 @@ DISPLAY "result"
 
 READ and SAVE "year"
 
-IF "year" mod 4 equals 0
-AND "year" mod 100 not equals to 0
+IF "year" mod 4 equal to 0
+AND "year" mod 100 not equal to 0
     DISPLAY "kabisat"
 ELSE 
     DISPLAY "bukan kabisat"
 
 OR
 
-IF "year" mod 4 equals 0
-AND "year" mod 100 equals 0
-AND "year" mod 400 equals 0
+IF "year" mod 4 equal to 0
+AND "year" mod 100 equal to 0
+AND "year" mod 400 equal to 0
     DISPLAY "kabisat"
 ELSE 
     DISPLAY "bukan kabisat"
