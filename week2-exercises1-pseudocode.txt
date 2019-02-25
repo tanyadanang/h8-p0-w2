@@ -1,0 +1,70 @@
+1. Newton Second Law 
+
+READ and SAVE "m" with 600
+READ and SAVE "a" with 2
+READ and SAVE "result"
+
+CALCULATE m times a
+
+SET result value with calculation "m" times "a"
+
+DISPLAY "result"
+
+
+
+
+2. Tahun Kabisat
+
+READ and SAVE "year"
+
+IF "year" mod 4 equals 0
+AND "year" mod 100 not equals to 0
+    DISPLAY "kabisat"
+ELSE 
+    DISPLAY "bukan kabisat"
+
+OR
+
+IF "year" mod 4 equals 0
+AND "year" mod 100 equals 0
+AND "year" mod 400 equals 0
+    DISPLAY "kabisat"
+ELSE 
+    DISPLAY "bukan kabisat"
+
+
+
+3. Laundry Day
+
+READ and SAVE "pakaian" with 0
+
+WHILE "pakaian" less or equal to 20
+    DO "masukan pakaian lagi"
+    ADD "pakaian" by 1
+END WHILE stop
+
+DO "Nyalakan mesin Cucinya"
+
+
+4. Periksa Kuku
+
+READ and SAVE "jumlahsiswa" with 0
+READ and SAVE "kukupanjang" with boolean
+
+WHILE "jumlahsiswa" less or equal to 40
+    IF "kukupanjang" equal to true
+        DSIPLAY "dihukum"
+    ELSE "kukupanjang" equal to false
+        DISPLAY "dipuji"
+    jumlahsiswa ADD by 1
+
+END WHILE stop
+
+
+
+
+
+
+
+
+
