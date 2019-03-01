@@ -33,3 +33,4 @@ for (var deret=20; deret>0; deret -=1){
 //3. Angka Ganjil dan Genap
 console.log ('')
 console.log ('3. Angka Ganjil dan Genap')
+
