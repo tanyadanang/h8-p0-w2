@@ -33,4 +33,36 @@ for (var deret=20; deret>0; deret -=1){
 //3. Angka Ganjil dan Genap
 console.log ('')
 console.log ('3. Angka Ganjil dan Genap')
+var counter=1;
+
+while (counter < 101){
+    if(counter%2 === 0 ){
+        console.log ('GENAP')
+    }
+    else{
+        console.log ('GANJIL')
+    }
+counter++
+}
+
+console.log(' ')
+var counter=1
+for (var i=counter;i<=100;i=i+2)
+if(i%3===0){
+  console.log(i +" kelipatan 3")
+}
+
+console.log(' ')
+var counter=1
+for (var i=counter;i<=100;i=i+5)
+if(i%6===0){
+  console.log(i+" kelipatan 6")
+}
+
+console.log(' ')
+var counter=1
+for (var i=counter;i<=100;i=i+9)
+if(i%10===0){
+  console.log(i+" kelipatan 10")
+}
 
