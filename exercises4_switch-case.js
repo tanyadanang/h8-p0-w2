@@ -1,34 +1,74 @@
-var tanggal=1
+var tanggal=21
 var bulan=1
-var tahun=2200
+var tahun=1945
 
-if (tanggal =>31){
-    console.log ('Masukan tanggal antara 1 sampai dengan 31')
+if (tanggal >=1 && tanggal <=31){
 } 
 else {
-    console.log (tanggal)
+    console.log ('Masukan tanggal antara 1-31')
 
 }
-if (tahun < 1900 && tahun > 2200){
-    console.log ('Masukan tahun antara 1900 - 2200')
-} else {
-    console.log(tahun)
-}
+
 
 switch (bulan){
-    case 1: {console.log ('Januari')break}
-    case 2: {console.log ('Februari')break}
-    case 3: {console.log ('Maret')break}
-    case 4: {console.log ('April')break}
-    case 5: {console.log ('Mei')break}
-    case 6: {console.log ('Juni')break}
-    case 7: {console.log ('Juli')break}
-    case 8: {console.log ('Agustus')break}
-    case 9: {console.log ('September')break}
-    case 10: {console.log ('Oktober')break}
-    case 11: {console.log ('November')break}
-    case 12: {console.log ('Desember')break}
-    default: {console.log ('masukan angka 1-12')}
+    case 1: {
+        bulan="Januari"
+        break
+    }
+
+    case 2: {
+        bulan="Februari"
+        break
+    }
+    case 3: {
+        bulan="Maret"
+        break
+    }
+    case 4: {
+        bulan="April"
+        break
+    }
+    case 5: {
+        bulan="Mei"
+        break
+    }
+    case 6: {
+        bulan="Juni"
+        break
+    }
+    case 7: {
+        bulan="Juli"
+        break
+    }
+    case 8: {
+        bulan="Agustus"
+        break
+    }
+    case 9: {
+        bulan="September"
+        break
+    }
+    case 10: {
+        bulan="Oktober"
+        break
+    }
+    case 11: {
+        bulan="November"
+        break
+    }
+    case 12: {
+        bulan="Desember"
+        break
+    }
+    default: {
+        console.log ('Masukan bulan antara 1-12')
+    }
 }
 
-console.log(taggal+bulan+tahun)
+if (tahun >= 1900 && tahun <= 2200){
+} else {
+    console.log('Masukan tahun antara 1900 - 2200')
+}
+
+var hasil = tanggal+" "+bulan+" "+tahun
+console.log (hasil)
