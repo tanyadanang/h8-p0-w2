@@ -2,10 +2,13 @@
 
 function konversiMenit(menit) {
     var num = menit
-    var jam = (num/60)
-    var xjam = Math.floor(jam)
-    var jumlahmenit = (jam - xjam)*60
+    var jam = (num/60) // 63/60=1.0333
+    var xjam = Math.floor(jam) // ambil angka integer bawah 1.0333 = 1
+    var jumlahmenit = (jam - xjam)*60 //(1.033-1)x60 = 
     var xjumlahmenit = Math.round(jumlahmenit)
+        if( xjumlahmenit.toString().length < 2 ) {
+            xjumlahmenit='0'+xjumlahmenit
+        }
 
     return xjam+':'+xjumlahmenit
     
