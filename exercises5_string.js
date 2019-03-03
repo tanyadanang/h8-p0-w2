@@ -1,15 +1,15 @@
 //1. Let's Form a Sentence
 console.log ('1. Let\'s Form a Sentence')
 
-var word = 'JavaScript ';
+var word = 'JavaScript';
 var second = 'is';
-var third = ' awesome';
-var fourth = ' and';
-var fifth = ' I';
-var sixth = ' love';
+var third = 'awesome';
+var fourth = 'and';
+var fifth = 'I';
+var sixth = 'love';
 var seventh = ' it!';
 
-console.log (word.concat(second).concat(third).concat(fourth).concat(fifth).concat(sixth).concat(seventh))
+console.log (word.concat(' ',second).concat(' ',third).concat(' ',fourth).concat(' ',fifth).concat(' ',sixth).concat(' ',seventh))
 
 console.log('')
 //2. Index Accessing - 1 by 1
