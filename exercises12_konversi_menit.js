@@ -1,15 +1,15 @@
 //Exercises Konversi Menit
 
-
-
 function konversiMenit(menit) {
-    var sisamenit = menit%60
-    var jam = (menit - sisamenit) / 60
-    console.log(jam + ":" + sisamenit) 
+    var num = menit
+    var jam = (num/60)
+    var xjam = Math.floor(jam)
+    var jumlahmenit = (jam - xjam)*60
+    var xjumlahmenit = Math.round(jumlahmenit)
+
+    return xjam+':'+xjumlahmenit
     
 }
-
-
 
   console.log(konversiMenit(63)); // 1:03
   console.log(konversiMenit(124)); // 2:04
